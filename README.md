@@ -69,8 +69,8 @@ Check that the Log dot is green, then press Refresh.
 **It's stuck on something that isn't on screen.**
 For example "Doors are always among the 6 cells ahead of the warden", the wrong days until Riot, or "show the prison board". It misread the screen. Go through the quick fixes above and press Refresh. If it keeps happening, send me the game.
 
-**Vorax doesn't read anything, or says Windows can't read English text.**
-Vorax reads numbers with Windows' English text recognition. Add English (United States) as an extra language under Settings → Time & language → Language & region. Windows stays in your language. Then restart the overlay.
+**Vorax doesn't read anything, or says English text recognition isn't installed.**
+Vorax reads numbers with Windows' English text recognition, and any English works. If none is installed, add English (United States) under Settings → Time & language → Language & region → Add a language. Windows stays in your language. Then restart the overlay.
 
 **Does it work on ultrawide or other resolutions?**
 Yes, ultrawide included. Vorax reads best at 1920x1080 or bigger.
