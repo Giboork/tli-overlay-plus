@@ -4,9 +4,9 @@ One overlay for Torchlight: Infinite's league minigames, **Tartarus Prison** and
 
 It replaces Tartarus Advisor and Vorax Overlay Plus. Those move over to it by themselves.
 
-[![The card and the green rings during a Tartarus Prison run](media/demo-poster.png)](media/tli-overlay-plus-demo.mp4)
+[![The card and the green rings during a Tartarus Prison run](media/demo-poster.png)](https://github.com/Giboork/tli-overlay-plus/raw/main/media/tli-overlay-plus-demo.mp4)
 
-**▶ [Watch the 40-second demo](media/tli-overlay-plus-demo.mp4)**
+**▶ [Watch the 40-second demo](https://github.com/Giboork/tli-overlay-plus/raw/main/media/tli-overlay-plus-demo.mp4)** (23 MB MP4)
 
 ## Download
 
