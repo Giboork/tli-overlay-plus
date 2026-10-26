@@ -60,6 +60,9 @@ Any window over a fullscreen game can change how Windows draws the game (V-Sync,
 **The Log dot is red.**
 The overlay can't find the game's log, so it only reads the screen when you press Refresh. Click the dot (or Settings → General → Game log) → Browse… and pick `UE_game.log`. It's usually in the game's folder under `UE_game\TorchLight\Saved\Logs\`. If the file is set and the dot stays red, the game isn't writing it: turn logging on in the game.
 
+**The Log dot is gold.**
+The overlay reads the game's log, but no Tartarus move shows in it, so it only reads the screen when you press Refresh. Turn on logging in the game's settings (the same option FE trackers need) and restart the game.
+
 **The Window dot is red.**
 The game's window isn't found. Is the game running?
 
