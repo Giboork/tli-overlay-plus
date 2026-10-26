@@ -1,4 +1,4 @@
-# TLI Overlay Plus
+# <img src="media/logo.png" width="44" align="center" alt=""> TLI Overlay Plus
 
 One overlay for Torchlight: Infinite's league minigames, **Tartarus Prison** and **Vorax** (Surgical Preparation). It reads the game's screen and tells you the best move, on a small card and with green rings over the game.
 
