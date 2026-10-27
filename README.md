@@ -31,7 +31,7 @@ Most wrong advice comes from a wrong read of the screen. Try these in order:
 2. **Let it see the whole game.** Play fullscreen or borderless, with the whole window on one monitor and nothing over it (other overlays, a browser, a stream preview).
 3. **Check the two dots at the card's foot.** Both should be green. For a red Log or Window dot, see the FAQ below.
 4. **Press Refresh** once the screen has settled. It reads the game again and picks up from there.
-5. **Vorax:** play at 1920x1080 or bigger (1280x720 reads poorly), and make sure Windows can read English text (see the FAQ).
+5. **Vorax:** play at 1920x1080 or bigger (1280x720 reads poorly). If it misreads, the card's **Help** button says what it found.
 6. **Restart the overlay.** Right-click the tray icon → Quit, then run it again.
 
 ## Nothing helped? Send me the game
@@ -72,8 +72,8 @@ Check that the Log dot is green, then press Refresh.
 **It's stuck on something that isn't on screen.**
 For example "Doors are always among the 6 cells ahead of the warden", the wrong days until Riot, or "show the prison board". It misread the screen. Go through the quick fixes above and press Refresh. If it keeps happening, send me the game.
 
-**Vorax doesn't read anything, or says English text recognition isn't installed.**
-Vorax reads numbers with Windows' English text recognition, and any English works. If none is installed, add English (United States) under Settings → Time & language → Language & region → Add a language. Windows stays in your language. Then restart the overlay.
+**Vorax doesn't read anything, or says text recognition isn't installed.**
+Vorax reads the game with Windows' text recognition: English if it's there, otherwise whatever Windows has. If the card says none is installed, add English (United States) under Settings → Time & language → Language & region → Add a language. Windows stays in your language. If English is already there, run `Add-WindowsCapability -Online -Name Language.OCR~~~en-US~0.0.1.0` in PowerShell as administrator. Then restart the overlay.
 
 **Does it work on ultrawide or other resolutions?**
 Yes, ultrawide included. Vorax reads best at 1920x1080 or bigger.
